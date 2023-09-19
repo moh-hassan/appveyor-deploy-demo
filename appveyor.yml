@@ -1,0 +1,9 @@
+# Define the build version
+version: 0.1.0.{build}
+
+# Select the worker image
+image: Visual Studio 2019
+
+# Fake build script
+build_script:
+  - ps: ./run.ps1
